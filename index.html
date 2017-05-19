@@ -5,8 +5,8 @@
 	<link href="assets/css/style.css" type="text/css" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Abel|Orbitron" rel="stylesheet">
-	<script type="text/javascript" src="assets/javascript/game.js"></script>
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
 
 	<title>Crystal Game</title>
 
@@ -46,8 +46,8 @@
 
 			<div class="col-md-1">
 				<div class="winLoss">
-					<p id="wins">Wins: </p>
-					<p id="losses">Losses: </p>
+					<p id="wins">Wins: 0</p>
+					<p id="losses">Losses: 0</p>
 				</div>
 			</div>
 
@@ -56,25 +56,17 @@
 		<div class="row">
 			<div class="col-md-8">
 				<div class="images">
-					<div id="crystal1">
-						<img src="assets/images/crystal1.jpg">
-					</div>
-					<div id="crystal2">
-						<img src="assets/images/crystal2.jpg">
-					</div>
-					<div id="crystal3">
-						<img src="assets/images/crystal3.jpg">
-					</div>
-					<div id="crystal4">
-						<img src="assets/images/crystal4.jpg">
-					</div>
+						<img src="assets/images/blue.png" id="crystal1">
+						<img src="assets/images/red.png" id="crystal2">
+						<img src="assets/images/green.png" id="crystal3">
+						<img src="assets/images/yellow.png" id="crystal4">
 				</div>
 			</div>
 		</div>	
 
 		<div class="row">
 			<div class="col-md-3">
-				<div id="totalScoreA">
+				<div class="stuff">
 					<p>Your total score is:</p>
 				</div>
 			</div>
@@ -82,8 +74,8 @@
 
 			<div class="row">
 				<div class="col-md-3">
-					<div id="totalScoreB">
-						<p>Total Score</p>
+					<div>
+						<p id="totalScore">Total Score</p>
 					</div>
 				</div>	
 			</div>
